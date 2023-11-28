@@ -1,9 +1,28 @@
-body {
-    font-family: Arial, sans-serif;
+body#login-body {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url('../assets/images/login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ensures the background covers the entire viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.container h2 {
+    color: #333;
+}
+
 
 .container {
     max-width: 400px;

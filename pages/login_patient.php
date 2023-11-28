@@ -49,8 +49,7 @@ mysqli_close($connection);
     <title>Login</title>
     <link rel="stylesheet" href="../assets/css/login_patient.css">
 </head>
-<body>
-  
+<body id="login-body">
 
     <div class="container">
         <h2>Login</h2>
